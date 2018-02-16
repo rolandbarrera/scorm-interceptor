@@ -28,7 +28,7 @@ scormInterceptor.init({ /* config goes here */});
   * [LRS](#LRS)
   * [xAPI](#xAPI)
   * [SCORM](#SCORM)
-  * [DEBUGGING] (#DEBUGGING)
+  * [DEBUGGING](#DEBUGGING)
 
   ## Configuration
 
