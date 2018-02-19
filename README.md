@@ -28,6 +28,7 @@ scormInterceptor.init({ /* config goes here */});
   * [LRS](#LRS)
   * [xAPI](#xAPI)
   * [SCORM](#SCORM)
+  * [DEBUGGING](#DEBUGGING)
 
   ## Configuration
 
@@ -146,3 +147,17 @@ scormInterceptor.init({ /* config goes here */});
   #### Set the SCORM API object (Used to access actor information NOT REQUIRED)
 
   `config.scorm.api` : string
+  
+  ### DEBUGGING
+  To see additional logs from the SCORM interceptor you can set "debug" to true in the configuration object.
+  
+```javascript
+{
+  scorm: {
+    setValueFunction: 'SCORM_CallLMSSetValue',
+    api: 'SCORM_objAPI'
+  },
+  debug: true
+}
+```
+  
