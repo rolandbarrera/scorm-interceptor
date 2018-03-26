@@ -4,7 +4,7 @@ A tool that intercepts SCORM and translates it into xAPI statements.
 ## Table of Contents
 * [**Description**](#description)
 * [**Installation**](#installation)
-* [**Configuration**](#script-usage)
+* [**Configuration**](#configuration)
   * [LRS](#LRS)
   * [xAPI](#xAPI)
   * [SCORM](#SCORM)
@@ -32,7 +32,7 @@ When adding the script references to the HTML file, add them to the very bottom 
 <script type="text/javascript" src="lib/scorm-interceptor.js"></script>
 ```
 
-3) Finally, set up the configuration object. This is done in the scorm-interceptor file. Place your configuration settings in this object. [See the section on setting up the configuration object to learn how to do that.](#script-usage). Look at the end of the file for the line that says:
+3) Finally, set up the configuration object. This is done in the scorm-interceptor file. Place your configuration settings in this object. [See the section on setting up the configuration object to learn how to do that.](#configuration). Look at the end of the file for the line that says:
 ```javascript
   var config = {/* CONFIGURATION GOES HERE */};
 ```
