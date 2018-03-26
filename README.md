@@ -5,10 +5,10 @@ A tool that intercepts SCORM and translates it into xAPI statements.
 * [**Description**](#description)
 * [**Installation**](#installation)
 * [**Configuration**](#configuration)
-  * [LRS](#LRS)
-  * [xAPI](#xAPI)
-  * [SCORM](#SCORM)
-  * [DEBUGGING](#DEBUGGING)
+  * [LRS](#lrs)
+  * [xAPI](#xapi)
+  * [SCORM](#scorm)
+  * [DEBUGGING](#debugging)
 
 ## Description
 This project contains a drop in javascript plugin for any SCORM package that will automatically
