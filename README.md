@@ -172,3 +172,17 @@ When adding the script references to the HTML file, add them to the very bottom 
 }
 ```
   
+### Actor
+The [getActor()](https://github.com/TryxAPI/scorm-interceptor/blob/master/lib/scorm-interceptor.js#L134-L154) method is used to obtain the user.
+If the statements being generated are all using the default user name, this function may need re-working to work with the LMS environment.
+On the configuration object, the default name is stored at:
+```javascript
+xapi: { 
+    agent: {
+        defaultAgent: {
+            id: 'DEFAULT_AGENT_ID',
+            name: 'DEFAULT_AGENT_NAME'
+        }
+    }
+}
+```
